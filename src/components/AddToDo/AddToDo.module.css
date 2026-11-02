@@ -1,0 +1,29 @@
+.inputArea {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.inputArea input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: 2px solid #0072ff;
+  outline: none;
+  font-size: 16px;
+}
+
+.inputArea button {
+  padding: 12px 20px;
+  background-color: #0072ff;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.inputArea button:hover {
+  background-color: #005ed3;
+}

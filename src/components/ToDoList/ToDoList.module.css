@@ -1,0 +1,30 @@
+.todoList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.todoList li {
+  background-color: #f4f4f4;
+  padding: 14px 16px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  transition: transform 0.2s ease;
+}
+
+.deleteList {
+  background: none;
+  border: none;
+  color: #ff4c4c;
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.deleteList:hover {
+  color: #ff1f1f;
+}
